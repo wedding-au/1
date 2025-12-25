@@ -237,7 +237,7 @@ h6 {
 }
 
 #intro h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Berita', serif;
     color: #fff;
     margin-bottom: 20px;
     font-size: 100px;
@@ -1147,4 +1147,5 @@ h6 {
     h6 {
         letter-spacing: 0 !important;
     }
+
 }
