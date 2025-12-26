@@ -10,14 +10,14 @@ body {
 }
 
 a {
-    color: #FF69B4;
+    color: #ff0000;
     transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #FF69B4;
+    color: #ff0000;
     outline: none;
     text-decoration: none;
 }
@@ -31,9 +31,9 @@ p {
 h1,
 h2,
 h3 {
-    font-family: 'Headlight';
+    font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    color: #FF69B4;
+    color: #ff0000;
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -43,7 +43,7 @@ h5,
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #FF69B4;
+    color: #b40000;
     margin: 0 0 10px 0;
     padding: 0;
 }
@@ -51,7 +51,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FF69B4;
+    background: #ff0000;
     border-radius: 30px;
     color: #fff;
     width: 44px;
@@ -71,11 +71,11 @@ h6 {
 }
 
 #fp-nav ul li a span {
-    background: #FF69B4;
+    background: #ff0000;
 }
 
 #fp-nav ul li .fp-tooltip {
-    color: #FF69B4;
+    color: #ff0000;
     margin-top: 0;
     font-size: 12px;
 }
@@ -113,7 +113,7 @@ h6 {
 }
 
 .main-menu ul li a {
-    color: #FF69B4;
+    color: #ff0000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -125,7 +125,7 @@ h6 {
     transition: color .25s ease, background-color .25s ease;
 }
 .mobile-menu-btn {
-    color: #FF69B4;
+    color: #ff0000;
     text-align: center;
     font-size: 30px;
     line-height: 57px;
@@ -237,7 +237,7 @@ h6 {
 }
 
 #intro h1 {
-    font-family: 'Mileast Regular'sans-serif;
+    font-family: 'Mending', serif;
     color: #fff;
     margin-bottom: 20px;
     font-size: 100px;
@@ -354,7 +354,7 @@ h6 {
     width: 50px;
     height: 50px;
     padding: 9px;
-    background: #FF69B4;
+    background: #ff0000;
     font-size: 32px;
     line-height: 1;
     border-radius: 30px;
@@ -365,22 +365,25 @@ h6 {
 }
 
 #intro .btn-get-started {
-    display: inline-block;
-    padding: 8px 30px;
-    margin: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    color: #ffffff;
-    background: #FF69B4;
-    border-radius: 30px;
-}
+    
+  color: rgb(255, 255, 255);
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+border: 2px solid #ffffff;
+border-radius: 10px;
+} 
 
 #intro .btn-get-started:hover {
     background: #ffffff;
-    color: #FF69B4;
+    color: #ff0000;
 }
+
 
 /* ================================================= */
 /* ---------------- Banner Section ----------------- */
@@ -466,16 +469,16 @@ h6 {
 /* ================================================= */
 
 .section-2 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(256, 256, 256, 0.85)), to(rgba(256, 256, 256, 0.85))), url("../img/section-2.jpg");
-    background: linear-gradient(90deg, rgba(256, 256, 256, 0.85) 0%, rgba(256, 256, 256, 0.85) 100%), url("../img/section-2.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(256, 256, 256, 0.85)), to(rgba(256, 256, 256, 0.85))), url("../img/1766742523686.jpg");
+    background: linear-gradient(90deg, rgba(256, 256, 256, 0.85) 0%, rgba(256, 256, 256, 0.85) 100%), url("../img/1766742523686.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .section-3 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(256, 256, 256, 0.85)), to(rgba(256, 256, 256, 0.85))), url("../img/section-2.jpg");
-    background: linear-gradient(90deg, rgba(256, 256, 256, 0.85) 0%, rgba(256, 256, 256, 0.85) 100%), url("../img/section-3.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(256, 256, 256, 0.85)), to(rgba(256, 256, 256, 0.85))), url("../img/1766742523708.jpg");
+    background: linear-gradient(90deg, rgba(256, 256, 256, 0.85) 0%, rgba(256, 256, 256, 0.85) 100%), url("../img/1766742523708.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -533,7 +536,7 @@ h6 {
 
 .section-header h3 {
     font-size: 60px;
-    color: #FF69B4;
+    color: #ff0000;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 10px;
@@ -547,7 +550,7 @@ h6 {
     display: block;
     width: 160px;
     height: 1px;
-    background: #FF69B4;
+    background: #ff0000;
     bottom: 1px;
     left: calc(50% - 80px);
 }
@@ -558,8 +561,8 @@ h6 {
     display: block;
     width: 50px;
     height: 5px;
-    border-top: 1px solid #FF69B4;
-    border-bottom: 1px solid #FF69B4;
+    border-top: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
     border-left: transparent;
     bottom: -1px;
     left: calc(50% - 25px);
@@ -608,11 +611,11 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #ff0000;
 }
 
 #story a:hover {
-    color: #FF69B4;
+    color: #ff0000;
     background: #222222;
 }
 
@@ -628,7 +631,7 @@ h6 {
 
 #story-page .story-col:nth-child(odd) {
     text-align: right;
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #ff0000;
 }
 
 @media (max-width: 767.98px) {
@@ -695,13 +698,13 @@ h6 {
 #gallery .gallery img {
     margin: 5px;
     width: calc(100% - 10px);
-    border-radius: 200px;
+    border-radius: 20px;
     box-shadow: 0 0 0 0px #fff inset, 0 0 5px 0 rgba(000, 000, 000, 0.5);
 }
 
 #gallery .gallery-nav img {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 #gallery .gallery-nav .slick-track {
@@ -746,7 +749,7 @@ h6 {
 }
 
 #party .text-right {
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #ff0000;
 }
 
 #party h4 {
@@ -765,12 +768,12 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #ff0000;
     margin-top: 45px;
 }
 
 #party a:hover {
-    color: #FF69B4;
+    color: #ff0000;
     background: #222222;
 }
 
@@ -805,7 +808,7 @@ h6 {
 }
 
 #place .text-right {
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #ff0000;
 }
 
 #place h4 {
@@ -824,12 +827,12 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #ff0000;
     margin-top: 45px;
 }
 
 #place a:hover {
-    color: #FF69B4;
+    color: #ff0000;
     background: #222222;
 }
 
@@ -854,7 +857,7 @@ h6 {
 
 #registry .form-control {
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #ff0000;
     box-shadow: none;
 }
 
@@ -870,13 +873,13 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #ff0000;
     border: none;
     cursor: pointer;
 }
 
 #registry button:hover {
-    color: #FF69B4;
+    color: #ff0000;
     background: #222222;
 }
 
@@ -901,7 +904,7 @@ h6 {
 
 #rsvp .form-control {
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #ff0000;
     box-shadow: none;
 }
 
@@ -910,21 +913,25 @@ h6 {
 }
 
 #rsvp button {
-    display: inline-block;
-    padding: 8px 30px;
-    border-radius: 30px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    background: #FF69B4;
-    border: none;
-    cursor: pointer;
+    background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-#rsvp button:hover {
-    color: #FF69B4;
-    background: #222222;
+.rsvp button {border: 2px solid #04AA6D;}
+
+
+.rsvp button {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /* ================================================= */
@@ -973,7 +980,7 @@ h6 {
 
 #clock .flip-clock-label {
     top: -35px;
-    color: #FF69B4;
+    color: #ff0000;
     font-size: 25px;
 }
 
@@ -994,12 +1001,12 @@ h6 {
 }
 
 #clock .flip-clock-dot {
-    background: #FF69B4;
+    background: #ff0000;
 }
 
 .flip-clock-wrapper ul li a div div.inn {
     color: #ffffff;
-    background: #FF69B4;
+    background: #ff0000;
 }
 
 /* ================================================= */
@@ -1027,7 +1034,7 @@ h6 {
 #login .form input {
     padding: 10px 14px;
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #ff0000;
     box-shadow: none;
     font-size: 16px;
 }
@@ -1040,7 +1047,7 @@ h6 {
     display: inline-block;
     border: none;
     border-radius: 30px;
-    background: #FF69B4;
+    background: #ff0000;
     padding: 9px 30px;
     color: #ffffff;
     letter-spacing: 2px;
@@ -1050,12 +1057,12 @@ h6 {
 
 #login .form button[type="submit"]:hover {
     background: #222222;
-    color: #FF69B4;
+    color: #ff0000;
 }
 
 .custom-control-label:before{
     background: #ffffff;
-    border: 1px solid #FF69B4;
+    border: 1px solid #ff0000;
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before,
@@ -1090,7 +1097,7 @@ h6 {
 
 #contact .contact-info i {
     font-size: 35px;
-    color: #FF69B4;
+    color: #ff0000;
     margin-bottom: 20px;
 }
 
@@ -1111,7 +1118,7 @@ h6 {
 #contact .form textarea {
     padding: 10px 14px;
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #ff0000;
     box-shadow: none;
     font-size: 16px;
 }
@@ -1125,7 +1132,7 @@ h6 {
     display: inline-block;
     border: none;
     border-radius: 30px;
-    background: #FF69B4;
+    background: #ff0000;
     padding: 9px 30px;
     color: #ffffff;
     letter-spacing: 2px;
@@ -1135,7 +1142,7 @@ h6 {
 
 #contact .form button[type="submit"]:hover {
     background: #222222;
-    color: #FF69B4;
+    color: #ff0000;
 }
 
 @media (max-width: 575.98px) {
@@ -1147,8 +1154,4 @@ h6 {
     h6 {
         letter-spacing: 0 !important;
     }
-
 }
-
-
-

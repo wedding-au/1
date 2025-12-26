@@ -22,7 +22,7 @@
         paddingBottom: '0',
         verticalCentered: true,
         showActiveTooltip: true,
-        navigationTooltips: ['HOME', 'OUR STORY', 'GALLERY', 'THE WEDDING', 'GETTING THERE', 'REGISTRY', 'RSVP', 'DAYS LEFT'],
+        navigationTooltips: [],
         sectionsColor: ['#ffffff']
     });
 
@@ -89,7 +89,7 @@
     });
     
     // CountDown
-    var date = new Date(2022, 12, 31);
+    var date = new Date(2026, 2, 8);
     var now = new Date();
     var diff = (date.getTime()/1000) - (now.getTime()/1000);
     $('.clock').FlipClock(diff,{
