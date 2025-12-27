@@ -89,7 +89,7 @@
     });
     
     // CountDown
-    var date = new Date(2026, 1, 8);
+    var date = new Date(2026, 1, 1);
     var now = new Date();
     var diff = (date.getTime()/1000) - (now.getTime()/1000);
     $('.clock').FlipClock(diff,{
@@ -98,5 +98,6 @@
     }); 
 
 })(jQuery);
+
 
 
